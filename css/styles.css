@@ -10,7 +10,7 @@
 
 .custom-card {
   background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .custom-card-body {
