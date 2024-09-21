@@ -12,7 +12,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
-  font-size: 1.25rem;
 }
 
 .custom-card {
@@ -28,4 +27,12 @@
   padding-top: 0;
   position: relative;
   min-height: 100px;
+}
+
+#retry-btn {
+  margin-left: 15px;
+}
+
+#answer-msg {
+  margin-top: 40px;
 }

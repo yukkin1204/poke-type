@@ -9,7 +9,7 @@
     <header class="py-5">
       <div class="container px-lg-5 text-center">
         <h1 class="display-5 fw-bold">Poke type</h1>
-        <p class="fs-5">ポケモン タイプ相性クイズ</p>
+        <h5>ポケモン タイプ相性クイズ</h5>
         ランダムに決められたポケモンのタイプを当てよう！<br />
         タイプが書かれたボタンを押すと、そのタイプのわざでポケモンに攻撃したときどうなるか表示されるよ。<br />
         ポケモンのタイプを予想できたら、「答えを見る」ボタンで答え合わせ！
@@ -20,151 +20,153 @@
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">ノーマル</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="normal-btn">ノーマル</button>
+              <h5 class="custom-heading">いまひとつ</h5>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">ほのお</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="fire-btn">ほのお</button>
+              <h3 class="custom-heading">ばつぐん</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">みず</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="watar-btn">みず</button>
+              <h3 class="custom-heading">ふつう</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">でんき</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="grass-btn">くさ</button>
+              <h3 class="custom-heading">こうかなし</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">くさ</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="electric-btn">でんき</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">こおり</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="ice-btn">こおり</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">かくとう</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="fighting-btn">かくとう</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">どく</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="poison-btn">どく</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">じめん</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="ground-btn">じめん</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">ひこう</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="flying-btn">ひこう</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">エスパー</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="psychic-btn">エスパー</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">むし</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="bug-btn">むし</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">いわ</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="rock-btn">いわ</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">ゴースト</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="ghost-btn">ゴースト</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">ドラゴン</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="dragon-btn">ドラゴン</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">あく</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="dark-btn">あく</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">はがね</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="steel-btn">はがね</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
         <div class="col-6 col-lg-2">
           <div class="card custom-card">
             <div class="card-body custom-card-body">
-              <button type="button" class="btn-lg btn-dark custom-button">フェアリー</button>
-              <h2 class="custom-heading">？</h2>
+              <button type="button" class="btn-lg btn-dark custom-button" id="fairy-btn">フェアリー</button>
+              <h3 class="custom-heading">？</h3>
             </div>
           </div>
         </div>
       </div>
     </div>
     <footer class="text-center">
-      <button type="button" class="btn-lg btn-primary text-nowrap">答えを見る</button>
+      <button type="button" class="btn-lg btn-primary text-nowrap" id="answer-btn">答えを見る</button>
+      <button type="button" class="btn-lg btn-secondary text-nowrap" id="retry-btn">リトライ</button>
+      <h5 id="answer-msg"></h5>
     </footer>
     <script src="js/scripts.js"></script>
   </body>
