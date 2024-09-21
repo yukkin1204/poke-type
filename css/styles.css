@@ -1,3 +1,13 @@
+.container {
+  max-width: 900px !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
 .custom-card {
   background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
   margin-bottom: 2rem;
@@ -14,6 +24,7 @@
   transform: translateX(-50%);
   white-space: nowrap;
   border-radius: 15px !important;
+  width: 130px;
 }
 
 .hint-msg {
