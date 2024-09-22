@@ -10,21 +10,31 @@
 
 .custom-card {
   background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .custom-card-body {
-  min-height: 100px;
+  height: 60px;
+  padding: 0 !important;
 }
 
 .custom-btn {
   position: absolute;
-  top: -20px;
+  top: -15px;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
   border-radius: 15px !important;
-  width: 130px;
+  height: 30px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 0.6rem !important;
+}
+
+@media (min-width: 768px) {
+  .custom-btn {
+    font-size: 1rem !important;
+  }
 }
 
 .hint-msg {
@@ -33,18 +43,53 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
+  font-size: 0.6rem !important;
 }
 
 @media (min-width: 768px) {
   .hint-msg {
-    font-size: 15px;
+    font-size: 1rem !important;
+  }
+}
+
+#answer-btn {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  #answer-btn {
+    font-size: 1rem;
   }
 }
 
 #retry-btn {
   margin-left: 15px;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  #retry-btn {
+    font-size: 1rem;
+  }
 }
 
 #answer-msg {
-  margin-top: 40px;
+  margin-top: 20px;
+  font-size: 1rem !important;
+  font-weight: 700;
+}
+
+.custom-row {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.intro-msg {
+  font-size: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .intro-msg {
+    font-size: 1rem !important;
+  }
 }

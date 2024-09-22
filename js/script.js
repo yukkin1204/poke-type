@@ -66,7 +66,7 @@ for (let i = 1; i < typeListEng.length; i++) {
 
 // 答えを見るボタンが押されたときの処理
 document.getElementById("answer-btn").addEventListener("click", function () {
-  document.getElementById("answer-msg").textContent = "正解は　" + typeListJa[answer[0]] + "　" + typeListJa[answer[1]];
+  document.getElementById("answer-msg").textContent = `正解は　${typeListJa[answer[0]]}　${typeListJa[answer[1]]}`;
 });
 
 // リトライボタンが押されたときの処理
